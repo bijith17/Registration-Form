@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+.register{
+    background: url(https://www.iave.org/iavewp/wp-content/uploads/2020/06/purple-background-registration.png);
+    background-size: cover;
+   backdrop-filter: blur(2px);
+    height: 100vh;
+}
